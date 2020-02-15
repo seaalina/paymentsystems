@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PaymentSystem {
-	private List<Payee>payees;
+	public List<Payee>payees;
 	public PaymentSystem(){
 		payees = new ArrayList<>();
 	}
@@ -20,7 +20,7 @@ for(Payee payee:payees){
 	Double grossPayment=payee.grossPayment();
 	
 	System.out.println("Paying to "+payee.name());
-	System.out.println("Gross "+grossPayment);
+	System.out.println("Gross "+String.format("%1$.2f",grossPayment));
 	System.out.println("Transferred to Account: "+payee.bankAccount());
 }
 }

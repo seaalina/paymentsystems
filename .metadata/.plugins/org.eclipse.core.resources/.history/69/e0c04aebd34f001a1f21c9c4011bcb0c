@@ -1,0 +1,12 @@
+package lv.alina.test;
+
+import lv.alina.employee.ComissionEmployee;
+import lv.alina.paysystem.PaymentSystem;
+
+public class TestPayment {
+public static void main(String[]args){
+	PaymentSystem paymentsystem = new PaymentSystem();
+	
+	ComissionEmployee toms = new ComissionEmployee("Toms Ozolins", 10001000101, 50);
+}
+}

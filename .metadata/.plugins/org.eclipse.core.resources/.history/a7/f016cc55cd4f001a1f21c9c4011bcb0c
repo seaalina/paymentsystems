@@ -1,0 +1,18 @@
+package lv.alina.employee;
+
+public class ComissionEmployee {
+	private String name;
+	private Integer bankAccount;
+	protected Double grossWage;
+	private Double grossComission=0.0;
+	
+	public ComissionEmployee(String name, Integer bankAccount,
+			Double grossWage) {
+		super();
+		this.name = name;
+		this.bankAccount = bankAccount;
+		this.grossWage = grossWage;
+	}
+	
+
+}
